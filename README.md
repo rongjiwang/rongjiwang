@@ -1,12 +1,12 @@
 # Hi, I'm Rongji Wang (Kevin) 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=720&lines=Developer+systems+builder;Cloud+infrastructure%2C+AI+automation%2C+and+software+delivery;Building+practical+tools+and+workflows;Open+to+collaboration+and+open-source+work" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=720&lines=Developer+systems+builder+focused+on+cloud+infrastructure%2C+AI+automation%2C+and+practical+software+delivery;Cloud+infrastructure%2C+AI+automation%2C+and+software+delivery;Building+practical+tools+and+workflows;Open+to+collaboration+and+open-source+work" alt="Typing SVG" />
 </div>
 
 ## About Me
 
-I build developer systems across cloud infrastructure, AI automation, and full-stack software delivery.
+Developer systems builder focused on cloud infrastructure, AI automation, and practical software delivery.
 
 My interests sit at the intersection of:
 - cloud and platform engineering
