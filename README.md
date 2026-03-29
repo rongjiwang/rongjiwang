@@ -6,7 +6,7 @@
 
 ## About Me
 
-Developer systems builder focused on cloud infrastructure, AI automation, and practical software delivery.
+I work at the intersection of cloud infrastructure, AI automation, and full-stack software delivery.
 
 My interests sit at the intersection of:
 - cloud and platform engineering
