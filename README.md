@@ -50,7 +50,7 @@ A Java and PostgreSQL project focused on building a functional data-backed appli
 A full-stack shopping web application built with JavaScript, Node.js, PostgreSQL, HTML, CSS, Bootstrap, and jQuery. This project demonstrates end-to-end application delivery across frontend, backend, and database layers.
 
 ### [cdk](https://github.com/rongjiwang/cdk)
-An infrastructure-oriented project aligned with my interest in cloud engineering, programmable infrastructure, and delivery workflows.
+A Python AWS CDK project exploring infrastructure definitions and Lambda deployment patterns.
 
 ## Collaboration
 
