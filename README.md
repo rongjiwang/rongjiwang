@@ -8,7 +8,7 @@
 
 I work at the intersection of cloud infrastructure, AI automation, and full-stack software delivery.
 
-My interests sit at the intersection of:
+I care most about:
 - cloud and platform engineering
 - AI-assisted automation and operational workflows
 - practical tools that help teams ship software faster and operate systems more effectively
