@@ -1,102 +1,52 @@
-# Hi, I'm Rongji Wang (Kevin) 👋
+# Rongji Wang (Kevin)
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=720&lines=Developer+systems+builder+focused+on+cloud+infrastructure%2C+AI+automation%2C+and+practical+software+delivery;Cloud+infrastructure%2C+AI+automation%2C+and+software+delivery;Building+practical+tools+and+workflows;Open+to+collaboration+and+open-source+work" alt="Typing SVG" />
-</div>
+I build agent skills, developer workflow automation, and cloud/platform tooling.
 
-## About Me
+My current focus is making AI-assisted engineering work more durable: less chat drift, clearer repository governance, and better handoff between planning, implementation, verification, and release.
 
-I work at the intersection of cloud infrastructure, AI automation, and full-stack software delivery.
+## Current Project
 
-I care most about:
+### [Document-Driven Autonomy](https://github.com/rongjiwang/document-driven-autonomy)
+
+A Codex skill for continuing substantial engineering work from durable repository documents instead of from the latest chat turn.
+
+It helps an agent:
+
+- assess whether a repo is ready for long autonomous execution
+- find operating rules, architecture, implementation plans, evals, and decisions
+- continue from the next documented task
+- verify work and checkpoint progress clearly
+
+The project is public, MIT licensed, validated in CI, released as `v0.3.1`, and tracking forward-test evidence toward a stronger community-ready release.
+
+## Areas I Care About
+
+- agent skills and AI-assisted development workflows
+- developer tools that make engineering work easier to resume and verify
 - cloud and platform engineering
-- AI-assisted automation and operational workflows
-- practical tools that help teams ship software faster and operate systems more effectively
-
-I'm particularly interested in collaborating on open-source projects related to developer tooling, automation, platform workflows, and applied AI.
-
-## Current Focus
-
-- Building practical automation around software delivery and developer workflows
-- Exploring AI-driven systems that solve real engineering problems
-- Growing deeper in cloud infrastructure, Infrastructure as Code, and operational tooling
-- Contributing to projects where product development and delivery engineering meet
-
-## Technical Areas
-
-### Cloud and Platform
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Pulumi](https://img.shields.io/badge/pulumi-8A3391?style=for-the-badge&logo=pulumi&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-
-### Programming and Product Development
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+- infrastructure, deployment, and operational automation
+- practical open-source systems with clear docs and maintainable workflows
 
 ## Selected Work
 
-### [LibrarySystem-PostgreSQL](https://github.com/rongjiwang/LibrarySystem-PostgreSQL)
-A Java and PostgreSQL project focused on building a functional data-backed application. It reflects my early interest in backend systems, data modeling, and practical software engineering fundamentals.
+- [document-driven-autonomy](https://github.com/rongjiwang/document-driven-autonomy): Codex skill for autonomous engineering from repository governance and planning docs.
+- [awesome-openclaw-skills](https://github.com/rongjiwang/awesome-openclaw-skills): curated index of OpenClaw skills.
+- [worldmonitor](https://github.com/rongjiwang/worldmonitor): AI-powered global intelligence dashboard for news, geopolitical, and infrastructure monitoring.
 
-### [ShoppingWebsite-Live](https://github.com/rongjiwang/ShoppingWebsite-Live)
-A full-stack shopping web application built with JavaScript, Node.js, PostgreSQL, HTML, CSS, Bootstrap, and jQuery. This project demonstrates end-to-end application delivery across frontend, backend, and database layers.
+## Technical Stack
 
-### [cdk](https://github.com/rongjiwang/cdk)
-A Python AWS CDK project exploring infrastructure definitions and Lambda deployment patterns.
+Python, TypeScript, JavaScript, Go, Java, AWS, Docker, Kubernetes, Terraform, Pulumi, GitHub Actions, and agent-oriented developer tooling.
 
 ## Collaboration
 
-I'm keen to connect with people working on:
-- developer tools
-- cloud and platform workflows
-- AI automation for engineering teams
-- practical open-source systems and products
+I am interested in collaborating on:
 
-If you're building in any of those areas, feel free to reach out or connect through GitHub.
-
-## GitHub Activity
-
-I keep my GitHub activity visible because I value consistency, iteration, and public proof of practice.
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rongjiwang&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rongjiwang&theme=tokyonight&hide_border=false" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rongjiwang&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
-</div>
-
-## Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rongjiwang&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
-</div>
-
-## Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rongjiwang&theme=tokyo-night" alt="Activity Graph" />
-</div>
+- open-source agent skills
+- developer workflow automation
+- platform and cloud tooling
+- applied AI systems for engineering teams
 
 ## Contact
 
-- Email: `rongjiwang0312@gmail.com`
 - GitHub: [@rongjiwang](https://github.com/rongjiwang)
-
-## Profile Views
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=rongjiwang&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</div>
+- Email: `rongjiwang0312@gmail.com`
