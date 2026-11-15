@@ -104,15 +104,15 @@ flowchart LR
 | 🔁 **AI-DLC in practice** | Built a 14-role AI-DLC agent workflow (product, architecture, development, DevSecOps, compliance, quality, operations) that takes infrastructure intents from inception through construction. |
 | 🎭 **Agent team demos** | Built a five-agent "platform team" (ops lead, architect, delivery, security, FinOps) and demoed it to the CTO and leadership. The delivery agent can open PRs, but it can't merge them. Trust is earned! |
 | ✅ **Making AI-written code trustworthy** | Introduced eval gates so AI-assisted infrastructure changes bring the same tests, policy checks and evidence as human ones. |
-| 🌱 **Open source** | Writing agent skills and curating lists so others can get started faster (see below). |
+| 🌱 **Open source** | Writing agent skills so others can run autonomous engineering work safely (see below). |
 
-## 🔭 My open-source playground
+## 🌟 Featured project
 
-| Project | What it is |
-|---|---|
-| 📚 [**document-driven-autonomy**](https://github.com/rongjiwang/document-driven-autonomy) | A Codex skill that lets agents carry long engineering work forward from repo docs instead of the latest chat turn. |
-| 🦞 [**awesome-openclaw-skills**](https://github.com/rongjiwang/awesome-openclaw-skills) | A curated index of OpenClaw skills. Come find your next favourite. |
-| 🌍 [**worldmonitor**](https://github.com/rongjiwang/worldmonitor) | An AI-powered global intelligence dashboard for news, geopolitics and infrastructure. |
+### 📚 [document-driven-autonomy](https://github.com/rongjiwang/document-driven-autonomy)
+
+A Codex skill for **long-running autonomous engineering**. Instead of relying on the latest chat turn, the agent works from durable repo docs: it checks whether the repo is ready for autonomy, finds the plan, picks up the next task, verifies the work and checkpoints progress. Open source, MIT licensed and validated in CI.
+
+[![Latest release](https://img.shields.io/github/v/release/rongjiwang/document-driven-autonomy?style=flat-square&label=latest%20release)](https://github.com/rongjiwang/document-driven-autonomy/releases/latest)
 
 ## 🧪 Currently tinkering with
 
