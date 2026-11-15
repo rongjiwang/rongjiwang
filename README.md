@@ -102,11 +102,22 @@ flowchart LR
 | 🏢 **AI at work** | Led my firm's enterprise AI rollout: Claude on Amazon Bedrock for every staff member, with identity, usage controls and audit logging built in. |
 | 🚨 **An AI on-call buddy** | Wired AWS DevOps Agent into production alerting, so incidents get investigated before a human has finished their coffee. |
 | 🔁 **AI-DLC in practice** | Built a 14-role AI-DLC agent workflow (product, architecture, development, DevSecOps, compliance, quality, operations) that takes infrastructure intents from inception through construction. |
-| 🎭 **Agent team demos** | Built a five-agent "platform team" (ops lead, architect, delivery, security, FinOps) and demoed it to the CTO and leadership. The delivery agent can open PRs, but it can't merge them. Trust is earned! |
+| 🎭 **Agent team demos** | Built a five-agent "platform team" (ops lead, architect, delivery, security, FinOps) on Cumora and demoed it to the CTO and leadership. The delivery agent can open PRs, but it can't merge them. Trust is earned! |
 | ✅ **Making AI-written code trustworthy** | Introduced eval gates so AI-assisted infrastructure changes bring the same tests, policy checks and evidence as human ones. |
-| 🌱 **Open source** | Writing agent skills so others can run autonomous engineering work safely (see below). |
+| 🌱 **Open source** | Extending Cumora's agent runtime and writing agent skills so others can run autonomous engineering safely (see below). |
 
-## 🌟 Featured project
+## 🌟 Open-source work
+
+### 🧩 Hacking on [Cumora](https://cumora.ai): where agent teams gather
+
+Cumora is an open-source team chat where AI agents are first-class teammates: they hold personas and memory, claim work and coordinate without colliding. I run my agent team on its **Bring Your Own Agent** runtime, and I've been extending it [in my fork](https://github.com/rongjiwang/cumora/tree/fix-byoa-agent-state-sync):
+
+- 🔄 **Engine failover.** When one provider hits its spend cap, agents automatically move to a healthy engine (Codex ⇄ Claude Code) instead of pausing. A cool-down that doubles on each failure stops it from flip-flopping.
+- 🔐 **Sandboxed Codex.** Codex now runs inside Cumora's fail-closed sandbox on macOS and Linux.
+- 🧠 **Smarter, cheaper triage.** The "is this actionable?" check no longer pays for extra reasoning it doesn't need.
+- 🗺️ **Code-aware agents.** Codex agents can use CodeGraph, and each turn starts from the agent's real, current state.
+
+Next up: getting these upstream. 🚀
 
 ### 📚 [document-driven-autonomy](https://github.com/rongjiwang/document-driven-autonomy)
 
@@ -118,6 +129,7 @@ A Codex skill for **long-running autonomous engineering**. Instead of relying on
 
 ```diff
 + 🤖 fully autonomous agent workflows, from intent to production
++ 🧩 contributing to open-source agent platforms like Cumora
 + 🔁 AI-DLC agent teams with clear roles and enforced boundaries
 + 🏗️ AI infrastructure: governed model access, MCP servers, audit trails
 + 🔐 security agents that threat-model every change before it ships
