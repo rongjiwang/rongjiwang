@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Hi, I'm Kevin. I build AI infrastructure, autonomous agents, AI-DLC workflows and guardrails.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Hi, I'm Kevin. I build AI infrastructure, autonomous agents, AI-DLC workflows and secure-by-default AI.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -64,9 +64,9 @@
       <text class="word w1" x="162" y="182">AI infrastructure 🏗️</text>
       <text class="word w2" x="162" y="182">autonomous agents 🤖</text>
       <text class="word w3" x="162" y="182">AI-DLC workflows 🔁</text>
-      <text class="word w4" x="162" y="182">guardrails 🛡️</text>
+      <text class="word w4" x="162" y="182">secure-by-default AI 🔐</text>
     </g>
-    <text x="58" y="232" font-size="16" fill="#8b949e" class="mono">&gt; from intent to production: autonomous, governed, logged.<tspan class="caret" fill="#3fb950">▌</tspan></text>
+    <text x="58" y="232" font-size="16" fill="#8b949e" class="mono">&gt; from intent to production: autonomous, secure, audited.<tspan class="caret" fill="#3fb950">▌</tspan></text>
   </g>
 
   <!-- right: tiny agent network -->
@@ -91,7 +91,7 @@
       <text y="1" class="float">🧠</text>
       <g transform="translate(-90 -60)"><circle r="22" fill="#21262d" stroke="#58a6ff" stroke-width="2"/><text y="1">🤖</text></g>
       <g transform="translate(95 -55)"><circle r="22" fill="#21262d" stroke="#58a6ff" stroke-width="2"/><text y="1">☁️</text></g>
-      <g transform="translate(-85 70)"><circle r="22" fill="#21262d" stroke="#58a6ff" stroke-width="2"/><text y="1">🛡️</text></g>
+      <g transform="translate(-85 70)"><circle r="22" fill="#21262d" stroke="#58a6ff" stroke-width="2"/><text y="1">🔐</text></g>
       <g transform="translate(100 65)"><circle r="22" fill="#21262d" stroke="#58a6ff" stroke-width="2"/><text y="1">🧑‍💻</text></g>
     </g>
   </g>
