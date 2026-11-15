@@ -6,7 +6,7 @@ My current focus is making AI-assisted engineering work more durable: less chat 
 
 ## Current Project
 
-### [Document-Driven Autonomy](https://github.com/rongjiwang/document-driven-autonomy)
+### [document-driven-autonomy](https://github.com/rongjiwang/document-driven-autonomy)
 
 A Codex skill for continuing substantial engineering work from durable repository documents instead of from the latest chat turn.
 
@@ -17,7 +17,9 @@ It helps an agent:
 - continue from the next documented task
 - verify work and checkpoint progress clearly
 
-The project is public, MIT licensed, validated in CI, released as `v0.3.1`, and tracking forward-test evidence toward a stronger community-ready release.
+[![Latest release](https://img.shields.io/github/v/release/rongjiwang/document-driven-autonomy)](https://github.com/rongjiwang/document-driven-autonomy/releases/latest)
+
+The project is public, MIT licensed, validated in CI, and tracking forward-test evidence toward a stronger community-ready release.
 
 ## Areas I Care About
 
@@ -29,7 +31,6 @@ The project is public, MIT licensed, validated in CI, released as `v0.3.1`, and 
 
 ## Selected Work
 
-- [document-driven-autonomy](https://github.com/rongjiwang/document-driven-autonomy): Codex skill for autonomous engineering from repository governance and planning docs.
 - [awesome-openclaw-skills](https://github.com/rongjiwang/awesome-openclaw-skills): curated index of OpenClaw skills.
 - [worldmonitor](https://github.com/rongjiwang/worldmonitor): AI-powered global intelligence dashboard for news, geopolitical, and infrastructure monitoring.
 
@@ -48,5 +49,4 @@ I am interested in collaborating on:
 
 ## Contact
 
-- GitHub: [@rongjiwang](https://github.com/rongjiwang)
 - Email: `rongjiwang0312@gmail.com`
