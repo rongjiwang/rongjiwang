@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Hi, I'm Kevin. I build AI agents, MCP servers, guardrails and cloud platforms." />
+<img src="assets/hero.svg" width="100%" alt="Hi, I'm Kevin. I build AI infrastructure, autonomous agents, AI-DLC workflows and guardrails." />
 
 <p>
   <a href="https://www.linkedin.com/in/rongjiwang"><img src="https://img.shields.io/badge/LinkedIn-let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -12,33 +12,63 @@
 
 I'm a platform engineer who fell **head over heels for AI agents** 🤖💜, and I can't stop telling people about it.
 
-By day I bring AI into a place where *"move fast and break things"* is not an option: a top-tier law firm, where every agent needs guardrails, every change needs evidence and every action needs an audit trail. By night I'm tinkering with agent teams, MCP servers and eval harnesses, then trying to convince everyone around me to give them a go. 😄
+My big obsession: **software that builds itself.** You describe the intent, and a team of agents plans it, builds it, secures it, tests it and ships it, on AI infrastructure solid enough to trust with production. I do this in a place where *"move fast and break things"* is not an option (a top-tier law firm), so every agent comes with guardrails, evidence and an audit trail. 😄
 
-My favourite thing? Showing a skeptical engineer that AI can be **safe, useful and genuinely fun** at the same time.
+## 🎯 Current focus
 
-## 🎬 A good day at the terminal
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🏗️ AI infrastructure
+The platform underneath the magic: governed model access on Amazon Bedrock, MCP servers, identity, usage controls, observability and audit logging, all as code.
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 Fully autonomous agent workflows
+Agent teams that take work end to end without a human babysitting every step, kept safe by role boundaries, eval gates and autonomy that grows with proven performance.
+
+</td>
+<td width="33%" valign="top">
+
+### 🔁 AI-DLC
+The AI-Driven Development Lifecycle: specialised agents for product, architecture, development, DevSecOps, compliance, quality and operations, taking an intent from inception through construction to production.
+
+</td>
+</tr>
+</table>
+
+## 🎬 An AI-DLC run, start to finish
 
 <div align="center">
-  <img src="assets/terminal.svg" width="760" alt="Animated terminal: an AI agent investigates a cloud bill read-only, proposes a fix, passes eval gates and opens a PR for human approval." />
+  <img src="assets/terminal.svg" width="760" alt="Animated terminal: an AI-DLC run where agents take an intent through inception, construction, security checks, eval gates and deployment." />
 </div>
 
 ## 💜 Why I'm all-in on AI
 
 - 🚀 **Agents are the biggest shift in how we build software since the cloud.** I want to help teams ride that wave, not get flattened by it.
 - 🛡️ **Safety makes AI faster, not slower.** Guardrails, eval gates and least privilege are what let you say *yes* to AI in serious places.
-- 🧑‍⚖️ **Humans stay in charge.** Agents are read-only by default, propose the change, and a person approves it. Autonomy is earned, one step at a time.
+- 🤖 **Full autonomy is the goal, and it's earned.** Agents start read-only, prove themselves on evals, and gain more freedom step by step. Humans set the intent and the rules; agents do the work.
 - 📜 **Docs beat chat history.** Durable plans and decisions in the repo make agents (and people) far better at picking up where they left off.
 - 🎉 **It should be fun.** If adopting AI feels like paperwork, we're doing it wrong.
 
-## 🔁 My favourite loop
+## 🔁 AI-DLC, the way I run it
 
 ```mermaid
 flowchart LR
-    A["💡 Real problem"] --> B["⚡ Prototype<br/>with Claude Code / Codex"]
-    B --> C["🛡️ Guardrails<br/>+ eval gates"]
-    C --> D["🚀 Ship it"]
-    D --> E["📣 Demo it<br/>& teach it"]
-    E -->|"new ideas 🔄"| A
+    I["💡 Intent"] --> P["🧭 Inception<br/>product · architect agents"]
+    P --> C["🏗️ Construction<br/>dev · DevSecOps agents"]
+    C --> G{"🧪 Eval gates<br/>tests · policy · cost"}
+    G -->|pass| O["🚀 Operations<br/>ops · FinOps agents"]
+    G -->|fail| C
+    O -->|"learnings 🔄"| I
+    subgraph F["🏗️ AI infrastructure: models · MCP · identity · audit logs"]
+      P
+      C
+      G
+      O
+    end
 ```
 
 ## 📣 How I spread the AI love
@@ -47,6 +77,7 @@ flowchart LR
 |---|---|
 | 🏢 **AI at work** | Led my firm's enterprise AI rollout: Claude on Amazon Bedrock for every staff member, with identity, usage controls and audit logging built in. |
 | 🚨 **An AI on-call buddy** | Wired AWS DevOps Agent into production alerting, so incidents get investigated before a human has finished their coffee. |
+| 🔁 **AI-DLC in practice** | Built a 14-role AI-DLC agent workflow (product, architecture, development, DevSecOps, compliance, quality, operations) that takes infrastructure intents from inception through construction. |
 | 🎭 **Agent team demos** | Built a five-agent "platform team" (ops lead, architect, delivery, security, FinOps) and demoed it to the CTO and leadership. The delivery agent can open PRs, but it can't merge them. Trust is earned! |
 | ✅ **Making AI-written code trustworthy** | Introduced eval gates so AI-assisted infrastructure changes bring the same tests, policy checks and evidence as human ones. |
 | 🌱 **Open source** | Writing agent skills and curating lists so others can get started faster (see below). |
@@ -62,11 +93,11 @@ flowchart LR
 ## 🧪 Currently tinkering with
 
 ```diff
-+ 🔌 MCP servers with real guardrails (and evals that catch made-up numbers)
-+ 🤖 multi-agent teams where autonomy grows with observed performance
++ 🤖 fully autonomous agent workflows, from intent to production
++ 🔁 AI-DLC agent teams with clear roles and enforced boundaries
++ 🏗️ AI infrastructure: governed model access, MCP servers, audit trails
 + 🧪 eval harnesses that grade agent trajectories, not just final answers
-+ 🔍 AI code review that never lets your code leave the country
-- 😴 manually gathering evidence at 3am during an incident
+- 😴 humans copy-pasting between tickets, terminals and dashboards
 ```
 
 ## 🛠️ Toys in my toolbox
@@ -91,6 +122,6 @@ flowchart LR
 
 ## 🤝 Come nerd out with me
 
-Want to swap agent war stories, compare MCP servers, or figure out how to get AI past your security team? **[I'm always up for a chat](https://www.linkedin.com/in/rongjiwang).** ☕
+Building AI infrastructure, autonomous agents or an AI-DLC of your own? Want to swap agent war stories or figure out how to get AI past your security team? **[I'm always up for a chat](https://www.linkedin.com/in/rongjiwang).** ☕
 
 <img src="assets/footer.svg" width="100%" alt="" />
