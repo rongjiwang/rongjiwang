@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" preserveAspectRatio="none" role="img" aria-label="Animated waves">
+  <style>@media (prefers-reduced-motion: reduce){ animate { display: none } }</style>
+  <path fill="#a371f7" opacity=".35" d="M0 60 C200 20 300 100 500 60 C700 20 800 100 1000 60 L1000 120 L0 120Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 60 C200 20 300 100 500 60 C700 20 800 100 1000 60 L1000 120 L0 120Z;M0 60 C200 100 300 20 500 60 C700 100 800 20 1000 60 L1000 120 L0 120Z;M0 60 C200 20 300 100 500 60 C700 20 800 100 1000 60 L1000 120 L0 120Z"/>
+  </path>
+  <path fill="#58a6ff" opacity=".45" d="M0 75 C250 110 350 40 500 75 C650 110 750 40 1000 75 L1000 120 L0 120Z">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0 75 C250 110 350 40 500 75 C650 110 750 40 1000 75 L1000 120 L0 120Z;M0 75 C250 40 350 110 500 75 C650 40 750 110 1000 75 L1000 120 L0 120Z;M0 75 C250 110 350 40 500 75 C650 110 750 40 1000 75 L1000 120 L0 120Z"/>
+  </path>
+  <path fill="#1b1640" d="M0 92 C200 80 350 108 500 92 C650 78 800 108 1000 92 L1000 120 L0 120Z">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 92 C200 80 350 108 500 92 C650 78 800 108 1000 92 L1000 120 L0 120Z;M0 92 C200 106 350 80 500 92 C650 106 800 80 1000 92 L1000 120 L0 120Z;M0 92 C200 80 350 108 500 92 C650 78 800 108 1000 92 L1000 120 L0 120Z"/>
+  </path>
+</svg>
